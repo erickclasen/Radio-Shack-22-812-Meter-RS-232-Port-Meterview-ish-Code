@@ -203,6 +203,10 @@ in the meter on a single charge. I don't think I will be buying regular
 9V alkaline batteries again. These rechargeable 9V batteries can be
 found on eBay and the price in 2023 at 4.50USD is reasonable.
 
+run.sh - nohup's the logging version and puts in background, this I used
+as this machine was ssh'd into, the code started and it was left alone for days.
+
+
 ### Light Sensor Readings in 1/ln(data) format
 
 ![Screenshot_2023-07-06_18-48-58](https://github.com/erickclasen/Radio-Shack-22-812-Meter-RS-232-Port-Meterview-ish-Code/assets/51176457/0f8ac658-c2ac-4cbd-9a10-83fe999a3b83)
