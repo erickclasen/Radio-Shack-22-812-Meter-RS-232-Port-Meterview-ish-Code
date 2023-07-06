@@ -1,7 +1,8 @@
 Radio Shack 22-812 data logging via RS-232 port
+-----------------------------------------------
 
-![](Pictures/100000010000016C0000024AF23542079CA4C4B0.png){width="2.7319in"
-height="4.3984in"}
+![7C696E5D-0A79-4CC1-B798-6ED7FD3FCFB2](https://github.com/erickclasen/Radio-Shack-22-812-Meter-RS-232-Port-Meterview-ish-Code/assets/51176457/7b070cb9-20ef-46c1-9cfc-11e1431a8dcf)
+
 
 *"If you want to monitor a measured electrical parameter (voltage,
 current, resistance, etc.) over a period of time, this python program
@@ -33,9 +34,7 @@ with it on Archive (
 <https://archive.org/details/radioshackmeterview10_220812> ).
 
 Serial ports are harder to find on computers in 2023. Luckily I have a
-Dell Optiplex 7010 which is
-a![](Pictures/1000000000000140000000F0F80B73D3CEEC4CF9.jpg){width="3.3335in"
-height="2.5in"} few years older and still has the port. I have noticed
+Dell Optiplex 7010 which is a few years old (2014?) and still has the port. I have noticed
 that many of these small form format units do have aerial port. I
 suspect this is due to the fact that they might be used to interface
 with cash registers that have legacy hardware requirements. So it might
@@ -52,6 +51,7 @@ The Code and Mods to it
 The Google code repo is for Python \< v3. I have updated the code so
 that it will run under Python \> v3.
 
+
 As the original post on the code points out there are some changes that
 need to be made in order to make the scripts run on newer Python code.
 
@@ -65,7 +65,7 @@ that the following changes were needed for use with python 3.1:
     characters
 -   use PySerial version 2.6 when using Python 3.1
 
-"
+
 
 I followed line of modification and as serial from Pyserial had to do
 the change related to setDTR.
@@ -205,8 +205,8 @@ found on eBay and the price in 2023 at 4.50USD is reasonable.
 
 ### Light Sensor Readings in 1/ln(data) format
 
-![](Pictures/10000000000004E10000023BECFE3F2DEB158CE1.png){width="6.9252in"
-height="3.1654in"}
+![Screenshot_2023-07-06_18-48-58](https://github.com/erickclasen/Radio-Shack-22-812-Meter-RS-232-Port-Meterview-ish-Code/assets/51176457/0f8ac658-c2ac-4cbd-9a10-83fe999a3b83)
+
 
 [](https://zmeter.sourceforge.net/)
 
